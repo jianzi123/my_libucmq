@@ -1,0 +1,17 @@
+{
+	"swift_port": 8008,
+	"porter_counts": 8,
+
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "spark",
+	"log_level": 5,
+
+	"api_apply": "/sparkApply.json",
+	"api_fetch": "/sparkFetch.json",
+	"api_merge": "/sparkMerge.json",
+
+	"api_custom": ["/w_xxx"]
+}

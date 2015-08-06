@@ -1,0 +1,17 @@
+{
+	"swift_port": 3333,
+	"porter_counts": 1,
+
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "crzptY",
+	"log_level": 0,
+
+	"api_apply": "/crazypointApply.json",
+
+	"roamer_counts": 8,
+	"pauper_counts": 1,
+	"crzpt_online": ["w_xxx"]
+}

@@ -1,0 +1,71 @@
+		ChangeLog file for libkv
+
+
+
+Changes in v0.0.1 (2015-04-30)
+
+2015-05-13 shishengjie <shishengjie@daoke.me> 
+	* Binding jemalloc library into libkv.a.
+
+2015-05-14 shishengjie <shishengjie@daoke.me>
+	* Implementation set command.(Without expire mechanism)
+	* Implementation get command.
+	* Implementation del command.
+	* Implementation dbsize command.
+	* Memory leak fixed(caller->argv/split_word->sds_for_free).
+
+2015-05-15 shishengjie <shishengjie@daoke.me>
+	* Fix counter deleted error when deleling multiple keys at the same time. 
+	* Implementation flushdb command.
+
+2015-05-16 shishengjie <shishengjie@daoke.me>
+	* Implementation incr command.
+	* Implementation incrby command.
+	* Implementation decr command.
+	* Implementation decrby command.
+
+
+Changes in v0.0.2 (2015-05-18)
+
+2015-05-18 shishengjie <shishengjie@daoke.me>
+	* Fix segment fault when pass NULL value to answer_value_to_string(). 
+	* Fix processProto() protocol error missed.
+
+2015-05-19 shishengjie <shishengjie@daoke.me>
+	* Fix missed free server.commands, server.db[i] in kv_uninit.
+	* Move example comments to example/example.c
+
+2015-05-20 shishengjie <shishengjie@daoke.me>
+	* Fix object/buffer zfree missed.
+	* Doxygen documentations generated automatically.
+
+2015-05-21 shishengjie <shishengjie@daoke.me>
+	* Implementation lpush command.
+
+2015-05-23 shishengjie <shishengjie@daoke.me>
+	* Document command list.
+
+2015-05-25 shishengjie <shishengjie@daoke.me>
+	* Implementation exists command.
+
+
+Changes in v0.0.3 (2015-05-25)
+
+2015-05-25 shishengjie <shishengjie@daoke.me>
+	* Implementation lrange command. 
+
+2015-05-26 shishengjie <shishengjie@daoke.me>
+	* Implementation sadd command.
+	* Implementation smembers command.
+
+2015-05-28 shishengjie <shishengjie@daoke.me>
+	* Add timer mechanism implementation.
+	* Fix segment fault when init/uninit timer in multiple threads environment.
+
+2015-05-29 shishengjie <shishengjie@daoke.me>
+	* Implementation passive mode expire command.
+
+2015-05-30 shishengjie <shishengjie@daoke.me>
+	* Implementation expireat,pexpire,pexpireat commands.
+
+

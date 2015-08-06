@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -Wall -Wextra -W -Wdeclaration-after-statement    CMakeFiles/key_app.dir/key_app.c.o  -o key_app -rdynamic ../../library/libpolarssl.so -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library: 

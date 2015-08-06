@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -Wall -Wextra -W -Wdeclaration-after-statement    CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.o  -o ssl_fork_server -rdynamic ../../library/libpolarssl.so -lz -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library: 

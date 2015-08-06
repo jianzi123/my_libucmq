@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -Wall -Wextra -W -Wdeclaration-after-statement    CMakeFiles/rsa_encrypt.dir/rsa_encrypt.c.o  -o rsa_encrypt -rdynamic ../../library/libpolarssl.so -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library: 

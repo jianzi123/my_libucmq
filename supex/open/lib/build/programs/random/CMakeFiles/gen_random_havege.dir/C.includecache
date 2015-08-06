@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/havege.h
+string.h
+-
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/random/gen_random_havege.c
+polarssl/config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/random/polarssl/config.h
+polarssl/havege.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/random/polarssl/havege.h
+time.h
+-
+stdio.h
+-
+

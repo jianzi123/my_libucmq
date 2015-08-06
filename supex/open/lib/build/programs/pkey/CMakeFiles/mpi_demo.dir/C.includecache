@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/bignum.h
+stdio.h
+-
+string.h
+-
+config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+basetsd.h
+-
+inttypes.h
+-
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/pkey/mpi_demo.c
+stdio.h
+-
+polarssl/config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/pkey/polarssl/config.h
+polarssl/bignum.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/pkey/polarssl/bignum.h
+

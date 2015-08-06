@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -Wall -Wextra -W -Wdeclaration-after-statement    CMakeFiles/gen_random_havege.dir/gen_random_havege.c.o  -o gen_random_havege -rdynamic ../../library/libpolarssl.so -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library: 

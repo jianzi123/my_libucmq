@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -Wall -Wextra -W -Wdeclaration-after-statement    CMakeFiles/dh_server.dir/dh_server.c.o  -o dh_server -rdynamic ../../library/libpolarssl.so -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library: 

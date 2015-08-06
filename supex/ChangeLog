@@ -1,0 +1,76 @@
+
+v1.0.5 (2015-01-30)
+	* New features:
+	* Incompatible changes:
+		- Create drimode project.
+		- Create rtmiles project.
+		- Support only.log for internal format string.
+	* Bug fixes:
+		- Fix only use static g_data_pool to support dynamic allocation.(2015-01-30)
+		- Coro add OPEN_LESS_SWITCH control.(2015-02-02)
+		- Fix bug:memory leak in lrucache.(2015-06-30)
+
+v1.0.4 (2014-12-30)
+	* New features:
+	* Incompatible changes:
+		- Sniff mode add evuv.
+		- Create weidb project.
+		- Fix init support spxprod run.
+		- Sniff mode add support [one queue more worker].
+	* Bug fixes:
+		- Fix hiredis bug:remove _EL_ADD_WRITE in redisAsyncSetConnectCallback
+
+v1.0.3 (2014-12-05)
+	* New features:
+	* Incompatible changes:
+		- Fix gopath codes,reduce peak lua-VM-memory from 11M to 5M.
+		- Add libhiredis and libzdb
+		- Add async redis api
+		- Add async http api
+		- Gopath implant topo api
+		- Gopath add function cache,promote one time compute capacity.
+		- Adjust task allocation policy,full use CPU.
+	* Bug fixes:
+		- Fix bug of stsv when tasks pile up.(2014-12-25)
+		- Fix bug:memory leak in sync_tcp_ask() c function.(2014-12-27)
+
+v1.0.2 (2014-11-12)
+	* New features:
+	* Incompatible changes:
+		- Fix damS with multichannel and use redis protocol.
+		- Point match road add : angle result.
+	* Bug fixes:
+		- Revised sync and async http api.
+
+
+v1.0.1 (2014-11-12)
+	* New features:
+	* Incompatible changes:
+		- Fix gopath from [crzptY] switch to [stsv].
+		- Update libev-4.15 to libev-4.19.(2014-11-12)
+	* Bug fixes:
+		- Fix ldb init failed when program restart.(2014-11-11)
+		- Fix async_http content_length check.(2014-11-22)
+
+
+v1.0.0 (2014-11-08)
+	* New features:
+		- Add pthread safe,function init protected.
+		- Support supply queue api from outside.
+		- Adjust the queue depths of gain event.
+		- Fix idle sleep depth and task fetch depth.
+		- Package and process of lock free queue unified interface.
+		- Optimization of ugliness and messy code.
+		- Update lib http-parser.
+		- Fix MAX_LISTEN_COUNTS from 1024 to 10240.(2014-11-10)
+		- Create stsv project.
+	* Incompatible changes:
+		- Delete some global variable.
+		- Close driview module performance log print.
+		- Fix crzptY main process works from [smart] switch to [swift].
+	* Bug fixes:
+		- Fix http api: Handle Leak and Memory Leak.(2014-11-08)
+		- Fix logfile switch by month: redesign.(2014-11-08)
+		- Reduce TIME_WAIT generate in http request.(2014-11-09)
+		- Add async http request timeout.(2014-11-11)
+

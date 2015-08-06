@@ -1,0 +1,68 @@
+{
+	"swift_port": 4210,
+	"porter_counts": 2,
+	"max_req_size": 32768,
+	"parter_counts": 5,	
+	"sharer_counts": 64,
+	"log_path": "./logs/",
+	"log_file": "damS",
+	"log_level": 2,
+	"api_apply": "/damSApply.json",
+	"api_fetch": "/damSFetch.json",
+	"api_merge": "/damSMerge.json",
+	"api_custom": ["/dams_transit_gpsinfo","/dams_transit_poweron"],
+	"fresh": [0,1,2,3,4,5,6,7,8,9,10],
+	"delay": [],
+	"links":
+	[
+		{
+			"serv": "driView",
+			"host": "172.16.21.175",
+			"port": 4040
+		},{
+			"serv": "MDDS",
+			"host": "172.16.21.205",
+			"port": 4120
+		},{
+			"serv": "roadRank",
+			"host": "172.16.21.140",
+			"port": 4100
+		},{
+			"serv": "releaseServer",
+			"host": "172.16.21.102",
+			"port": 4170
+		},{
+			"serv": "roadRank-dispatch",
+			"host": "172.16.21.214",
+			"port": 4110
+		},{
+			"serv": "rtmiles",
+			"host": "172.16.21.171",
+			"port": 4140
+		},{
+			"serv": "driView2",
+			"host": "172.16.21.161",
+			"port": 4040
+		},{
+			"serv": "driView3",
+			"host": "172.16.21.153",
+			"port": 4040
+		},{
+			"serv": "rmq-java",
+			"host": "172.16.21.89",
+			"port": 8178
+		},{
+			"serv": "checkequipment",
+			"host": "172.16.21.173",
+			"port": 2222 
+		},{
+			"serv": "releaseServer",
+			"host": "172.16.21.132",
+			"port": 4170 
+		}
+
+
+		
+
+	]
+}

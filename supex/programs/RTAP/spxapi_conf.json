@@ -1,0 +1,16 @@
+{
+	"service_port": 2222,
+	"hander_counts": 2,
+	"worker_counts": 4,
+	"tasker_counts": 128,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "spxapi",
+	"log_level": 5,
+	
+	"api_fetch": "/spxapiFetch.json",
+	"api_merge": "/spxapiMerge.json",
+	"api_custom": ["/w_xxx", "/spx_txt_to_voice"]
+}

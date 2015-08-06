@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/error.h
+string.h
+-
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/util/strerror.c
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+polarssl/config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/util/polarssl/config.h
+polarssl/error.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/util/polarssl/error.h
+

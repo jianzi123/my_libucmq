@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/sha2.h
+config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+string.h
+-
+basetsd.h
+-
+inttypes.h
+-
+sha2_alt.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/sha2_alt.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/hash/sha2sum.c
+string.h
+-
+stdio.h
+-
+polarssl/config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/hash/polarssl/config.h
+polarssl/sha2.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/hash/polarssl/sha2.h
+

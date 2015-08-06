@@ -1,0 +1,17 @@
+{
+	"swift_port": 4444,
+	"porter_counts": 1,
+
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "crzptX",
+	"log_level": 5,
+
+	"api_custom": ["/w_xxx"],
+
+	"roamer_counts": 8,
+	"pauper_counts": 16,
+	"crzpt_online": ["w_xxx"]
+}

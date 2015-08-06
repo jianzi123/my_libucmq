@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -O2 -Wall -Wextra -W -Wdeclaration-after-statement   -shared -Wl,-soname,libhttps.so -o libhttps.so CMakeFiles/https.dir/https.c.o ../../library/libpolarssl.so -lz -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library 

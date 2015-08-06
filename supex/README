@@ -1,0 +1,51 @@
+#define LOG_D_VALUE		"[DEBUG]" 
+#define LOG_I_VALUE		"[INFO ]"
+#define LOG_W_VALUE		"[WARN ]"
+#define LOG_F_VALUE		"[FAIL ]"
+#define LOG_E_VALUE		"[ERROR]"
+#define LOG_S_VALUE		"[SYST ]"
+
+#define LOG_D_LEVEL		0
+#define LOG_I_LEVEL		1
+#define LOG_W_LEVEL		2
+#define LOG_F_LEVEL		3
+#define LOG_E_LEVEL		4
+#define LOG_S_LEVEL		5
+
+
+
+git clone https://github.com/joyent/http-parser.git
+git clone https://github.com/json-c/json-c.git
+git clone https://github.com/redis/hiredis.git
+git clone https://github.com/mverbert/libzdb.git
+
+1)http://dist.schmorp.de/libev/
+2)cvs -z3 -d :pserver:anonymous@cvs.schmorp.de/schmorpforge co libev
+
+#if 0
+http://luaforge.net/projects/luasocket/
+tar -xzvf luasocket-2.0-beta2.tar.gz
+mv makefile.Linux  Makefile
+vi Makefile
+CFLAGS=-I../../include -I/usr/local/include/luajit-2.0  $(PROF) $(OPT) $(DBG) $(DEF) -pedantic -W -Wall -fPIC
+
+mv luasocket.so.2.0  socket.so
+#endif
+https://github.com/diegonehab/luasocket
+
+
+
+http://www.kyne.com.au/~mark/software/lua-cjson.php
+git clone https://github.com/mpx/lua-cjson.git
+git clone https://github.com/efelix/lua-cjson.git
+
+
+
+如何提高并发量:
+1)提升listen最大值.
+2)增加accept线程数.
+3)减少TIME_WAIT回收等待时间.
+4)不返回数据时,设置linger(quick)立即回收,避免TIME_WAIT.
+5)改用长连接.
+
+ps:返回数据时,设置linger(delay)是不对的,close会阻塞

@@ -1,0 +1,20 @@
+{
+	"swift_port": 4080,
+	"porter_counts": 1,
+
+	"max_req_size": 32768,
+
+	"parter_counts": 10,
+	"sharer_counts": 64,
+
+	"log_path": "./logs/",
+	"log_file": "weidb",
+	"log_level": 5,
+
+
+	"api_apply": "/weidbApply.json",
+	"api_fetch": "/weidbFetch.json",
+	"api_merge": "/weidbMerge.json",
+
+	"api_custom": ["/weidb_test","/weidb_personal","/weidb_group","/weidb_issued","/weidb_update","/weidb_city"]
+}

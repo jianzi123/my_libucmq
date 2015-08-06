@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -Wall -Wextra -W -Wdeclaration-after-statement    CMakeFiles/ssl_client2.dir/ssl_client2.c.o  -o ssl_client2 -rdynamic ../../library/libpolarssl.so -lz -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library: 

@@ -1,0 +1,9 @@
+		Readme file for the documentation of libkv, Doxygen output docs here.
+
+
+
+   GENERATION
+================
+	1.yum install doxygen
+	2.cd libkv/
+	3.doxygen Doxygen

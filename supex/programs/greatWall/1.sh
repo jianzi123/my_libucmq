@@ -1,0 +1,9 @@
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &
+luajit test/damS_client.lua &

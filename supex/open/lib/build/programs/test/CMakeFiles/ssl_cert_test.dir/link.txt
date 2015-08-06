@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -Wall -Wextra -W -Wdeclaration-after-statement    CMakeFiles/ssl_cert_test.dir/ssl_cert_test.c.o  -o ssl_cert_test -rdynamic ../../library/libpolarssl.so -lz -Wl,-rpath,/home/cheng/company/supex/open/lib/build/library: 

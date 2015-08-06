@@ -1,0 +1,17 @@
+{
+	"service_port": 9999,
+	"hander_counts": 4,
+	"worker_counts": 16,
+	"tasker_counts": 32,
+	"monitor_times": 30,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "appcenter",
+	"log_level": 5,
+	
+	"api_apply": "/appcenterApply.json",
+	"api_fetch": "/appcenterFetch.json",
+	"api_merge": "/appcenterMerge.json"
+}

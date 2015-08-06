@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/entropy.h
+string.h
+-
+config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+sha4.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/sha4.h
+havege.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/havege.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/havege.h
+string.h
+-
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/sha4.h
+config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/config.h
+string.h
+-
+inttypes.h
+-
+sha4_alt.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/include/polarssl/sha4_alt.h
+
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/random/gen_entropy.c
+polarssl/config.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/random/polarssl/config.h
+polarssl/entropy.h
+/home/cheng/company/supex/open/lib/polarssl-1.2.8/programs/random/polarssl/entropy.h
+stdio.h
+-
+

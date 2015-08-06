@@ -1,0 +1,16 @@
+{
+	"service_port": 2222,
+	"hander_counts": 1,
+	"worker_counts": 1,
+	"tasker_counts": 32,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "checkequipment",
+	"log_level": 5,
+
+	"api_apply": "/publicentry",
+	"api_fetch": "/checkequipmentFetch.json",
+	"api_merge": "/checkequipmentMerge.json",
+}

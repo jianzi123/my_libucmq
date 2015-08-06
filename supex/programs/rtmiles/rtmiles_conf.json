@@ -1,0 +1,16 @@
+{
+	"service_port": 4140,
+	"hander_counts": 2,
+	"worker_counts": 16,
+	"tasker_counts": 32,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "rtmiles",
+	"log_level": 5,
+
+	"api_apply": "/publicentry",
+	"api_fetch": "/rtmilesFetch.json",
+	"api_merge": "/rtmilesMerge.json",
+}

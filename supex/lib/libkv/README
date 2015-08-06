@@ -1,0 +1,37 @@
+			readme file for libkv
+
+
+libkv is a key-value storage system based on redis-3.0.0, is intended to create a powerful map library.
+
+
+
+   STABLE
+============
+	1.You can get latest stable version from ftp://192.168.1.5 server in libkv_release/ directory. 
+	  Ftp [username:upload] [password:upload]
+	2.Also you can compile current unstable version from git server, see below.
+
+
+   COMPILE
+=============
+	1.git clone ssh://git_server_ip/libkv.git.
+	2.cd libkv && make release. (you can find libkv.h libkv.a in release/)
+	3.done.(enjoy it)
+
+
+   EXAMPLE
+=============
+	Reference to libkv/example/*.c
+
+
+   DOC
+=========
+	Reference to libkv/doc/README
+
+
+   BUGS
+==========
+	Report to <shishengjie@daoke.me>
+
+
+	

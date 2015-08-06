@@ -1,0 +1,5 @@
+ptop部署时需要注意的文件
+
+link.lua
+cfg.lua
+ptop_config.json

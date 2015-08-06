@@ -1,0 +1,16 @@
+{
+	"service_port": 7777,
+	"hander_counts": 2,
+	"worker_counts": 2,
+	"tasker_counts": 64,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "ptop",
+	"log_level": 5,
+	
+	"api_fetch": "/ptopFetch.json",
+	"api_merge": "/ptopMerge.json",
+	"api_custom": ["/w_xxx", "/p2p_traffic_remind", "/p2p_offsite_remind", "/p2p_mon_driving_mileage_remind", "/p2p_limit_speed_remind", "/p2p_fetch_4_miles_ahead_poi", "/p2p_driving_pattern_remind", "/p2p_get_txt2voice", "/p2p_continuous_driving_mileage_remind", "/p2p_over_speed", "/p2p_weather_forcast"]
+}

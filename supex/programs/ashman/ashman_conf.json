@@ -1,0 +1,20 @@
+{
+	"swift_port": 4080,
+	"porter_counts": 1,
+
+	"max_req_size": 32768,
+
+	"parter_counts": 10,
+	"sharer_counts": 64,
+
+	"log_path": "./logs/",
+	"log_file": "ashman",
+	"log_level": 5,
+
+
+	"api_apply": "/ashmanApply.json",
+	"api_fetch": "/ashmanFetch.json",
+	"api_merge": "/ashmanMerge.json",
+
+	"api_custom": ["/adjust_online_user"]
+}

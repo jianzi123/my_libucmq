@@ -1,0 +1,72 @@
+[ INFO  12308 17:30:18.097 src/mq_api.c:50 ] Initial mq store.
+[ INFO  12308 17:30:18.098 src/mq_queue_manage.c:221 ] --- queue array num[0] ---
+[ INFO  12308 17:30:18.098 src/mq_api.c:59 ] All queue's total unread msg count[0]
+[ INFO  12332 17:30:56.322 src/mq_api.c:50 ] Initial mq store.
+[ INFO  12332 17:30:56.322 src/mq_queue_manage.c:221 ] --- queue array num[0] ---
+[ INFO  12332 17:30:56.322 src/mq_api.c:59 ] All queue's total unread msg count[0]
+[ WARN  12332 17:30:57.481 src/mq_api.c:187 ] Queue [1_0_3] is not exists
+[ WARN  12332 17:30:57.481 src/mq_api.c:187 ] Queue [1_0_1] is not exists
+[ WARN  12332 17:30:57.481 src/mq_api.c:187 ] Queue [1_0_0] is not exists
+[ WARN  12332 17:30:57.482 src/mq_api.c:187 ] Queue [1_0_2] is not exists
+[ WARN  12332 17:30:57.482 src/mq_api.c:187 ] Queue [1_0_4] is not exists
+[ WARN  12332 17:30:58.484 src/mq_api.c:187 ] Queue [1_1_2] is not exists
+[ WARN  12332 17:30:58.486 src/mq_api.c:187 ] Queue [1_1_3] is not exists
+[ WARN  12332 17:30:58.486 src/mq_api.c:187 ] Queue [1_1_4] is not exists
+[ WARN  12332 17:30:58.486 src/mq_api.c:187 ] Queue [1_1_0] is not exists
+[ WARN  12332 17:30:58.486 src/mq_api.c:187 ] Queue [1_1_1] is not exists
+[ WARN  12332 17:30:59.622 src/mq_api.c:187 ] Queue [0_0_1] is not exists
+[ WARN  12332 17:30:59.622 src/mq_api.c:187 ] Queue [0_0_0] is not exists
+[ WARN  12332 17:30:59.622 src/mq_api.c:187 ] Queue [0_0_3] is not exists
+[ WARN  12332 17:30:59.622 src/mq_api.c:187 ] Queue [0_0_4] is not exists
+[ WARN  12332 17:30:59.626 src/mq_api.c:187 ] Queue [0_0_2] is not exists
+[ WARN  12332 17:31:00.625 src/mq_api.c:187 ] Queue [0_1_2] is not exists
+[ WARN  12332 17:31:00.625 src/mq_api.c:187 ] Queue [0_1_3] is not exists
+[ WARN  12332 17:31:00.625 src/mq_api.c:187 ] Queue [0_1_1] is not exists
+[ WARN  12332 17:31:00.625 src/mq_api.c:187 ] Queue [0_1_4] is not exists
+[ WARN  12332 17:31:00.625 src/mq_api.c:187 ] Queue [0_1_0] is not exists
+[ INFO  12488 17:35:37.729 src/mq_api.c:50 ] Initial mq store.
+[ INFO  12488 17:35:37.729 src/mq_queue_manage.c:221 ] --- queue array num[0] ---
+[ INFO  12488 17:35:37.729 src/mq_api.c:59 ] All queue's total unread msg count[0]
+[ WARN  12488 17:35:38.772 src/mq_api.c:187 ] Queue [0_0_0] is not exists
+[ WARN  12488 17:35:38.772 src/mq_api.c:187 ] Queue [0_0_3] is not exists
+[ WARN  12488 17:35:38.772 src/mq_api.c:187 ] Queue [0_0_4] is not exists
+[ WARN  12488 17:35:38.772 src/mq_api.c:187 ] Queue [0_0_1] is not exists
+[ WARN  12488 17:35:38.772 src/mq_api.c:187 ] Queue [0_0_2] is not exists
+[ WARN  12488 17:35:39.778 src/mq_api.c:187 ] Queue [0_1_0] is not exists
+[ WARN  12488 17:35:39.778 src/mq_api.c:187 ] Queue [0_1_3] is not exists
+[ WARN  12488 17:35:39.778 src/mq_api.c:187 ] Queue [0_1_1] is not exists
+[ WARN  12488 17:35:39.779 src/mq_api.c:187 ] Queue [0_1_2] is not exists
+[ WARN  12488 17:35:39.779 src/mq_api.c:187 ] Queue [0_1_4] is not exists
+[ WARN  12488 17:35:40.803 src/mq_api.c:187 ] Queue [1_0_0] is not exists
+[ WARN  12488 17:35:40.803 src/mq_api.c:187 ] Queue [1_0_4] is not exists
+[ WARN  12488 17:35:40.803 src/mq_api.c:187 ] Queue [1_0_3] is not exists
+[ WARN  12488 17:35:40.804 src/mq_api.c:187 ] Queue [1_0_2] is not exists
+[ WARN  12488 17:35:40.812 src/mq_api.c:187 ] Queue [1_0_1] is not exists
+[ WARN  12488 17:35:41.823 src/mq_api.c:187 ] Queue [1_1_3] is not exists
+[ WARN  12488 17:35:41.823 src/mq_api.c:187 ] Queue [1_1_2] is not exists
+[ WARN  12488 17:35:41.823 src/mq_api.c:187 ] Queue [1_1_1] is not exists
+[ WARN  12488 17:35:41.823 src/mq_api.c:187 ] Queue [1_1_0] is not exists
+[ WARN  12488 17:35:41.823 src/mq_api.c:187 ] Queue [1_1_4] is not exists
+[ INFO  12580 17:39:55.158 src/mq_api.c:50 ] Initial mq store.
+[ INFO  12580 17:39:55.158 src/mq_queue_manage.c:221 ] --- queue array num[0] ---
+[ INFO  12580 17:39:55.158 src/mq_api.c:59 ] All queue's total unread msg count[0]
+[ WARN  12580 17:39:56.231 src/mq_api.c:187 ] Queue [0_0_0] is not exists
+[ WARN  12580 17:39:56.231 src/mq_api.c:187 ] Queue [0_0_2] is not exists
+[ WARN  12580 17:39:56.231 src/mq_api.c:187 ] Queue [0_0_1] is not exists
+[ WARN  12580 17:39:56.232 src/mq_api.c:187 ] Queue [0_0_4] is not exists
+[ WARN  12580 17:39:56.233 src/mq_api.c:187 ] Queue [0_0_3] is not exists
+[ WARN  12580 17:39:57.240 src/mq_api.c:187 ] Queue [0_1_4] is not exists
+[ WARN  12580 17:39:57.240 src/mq_api.c:187 ] Queue [0_1_3] is not exists
+[ WARN  12580 17:39:57.240 src/mq_api.c:187 ] Queue [0_1_0] is not exists
+[ WARN  12580 17:39:57.240 src/mq_api.c:187 ] Queue [0_1_1] is not exists
+[ WARN  12580 17:39:57.240 src/mq_api.c:187 ] Queue [0_1_2] is not exists
+[ WARN  12580 17:39:58.321 src/mq_api.c:187 ] Queue [1_0_4] is not exists
+[ WARN  12580 17:39:58.321 src/mq_api.c:187 ] Queue [1_0_2] is not exists
+[ WARN  12580 17:39:58.321 src/mq_api.c:187 ] Queue [1_0_0] is not exists
+[ WARN  12580 17:39:58.322 src/mq_api.c:187 ] Queue [1_0_3] is not exists
+[ WARN  12580 17:39:58.322 src/mq_api.c:187 ] Queue [1_0_1] is not exists
+[ WARN  12580 17:39:59.327 src/mq_api.c:187 ] Queue [1_1_3] is not exists
+[ WARN  12580 17:39:59.327 src/mq_api.c:187 ] Queue [1_1_0] is not exists
+[ WARN  12580 17:39:59.327 src/mq_api.c:187 ] Queue [1_1_2] is not exists
+[ WARN  12580 17:39:59.327 src/mq_api.c:187 ] Queue [1_1_4] is not exists
+[ WARN  12580 17:39:59.327 src/mq_api.c:187 ] Queue [1_1_1] is not exists

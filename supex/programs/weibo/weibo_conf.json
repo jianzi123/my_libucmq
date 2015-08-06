@@ -1,0 +1,48 @@
+{
+	"swift_port": 6000,
+	"porter_counts": 7,
+
+	"max_req_size": 32768,
+
+	"parter_counts": 1,
+	"sharer_counts": 64,
+
+	"log_path": "./logs/",
+	"log_file": "weibo",
+	"log_level": 4,
+
+	"api_apply": "/weiboApply.json",
+	"api_fetch": "/weiboFetch.json",
+	"api_merge": "/weiboMerge.json",
+
+	"api_custom": [],
+	"weibo_store":
+	[
+		{
+			"serv": "weibo_store",
+			"host": "127.0.0.1",
+			"port": 6379
+		},{
+			"serv": "weibo_store",
+			"host": "127.0.0.1",
+			"port": 6379
+		},
+	],
+	"weibo_static":
+	[
+		{
+			"serv":"weibo_static",
+			"host":"192.168.1.11",
+			"port": 6379
+		}
+
+	],
+	"weidb":
+	[
+		{	
+			"serv": "weidb",
+			"host": "127.0.0.1",
+			"port": 4080
+		}
+	],
+}

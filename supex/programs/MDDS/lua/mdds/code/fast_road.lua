@@ -1,0 +1,17 @@
+local only 	= require('only')
+local supex 	= require('supex')
+local socket	= require('socket')
+
+module('fast_road', package.seeall)
+
+function handle()
+	only.log("E", "??????")
+	local data = 'GET /4 HTTP/1.0\r\n' ..
+	'User-Agent: curl/7.32.0\r\n' ..
+	'Host: 127.0.0.1\r\n' ..
+	'Accept: */*\r\n\r\n'
+
+	local ok, info = supex.http("127.0.0.1", 80, data, #data)
+	print(ok, info)
+end
+

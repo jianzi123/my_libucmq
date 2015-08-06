@@ -1,0 +1,49 @@
+{
+	"service_port": 1111,
+	"hander_counts": 4,
+	"worker_counts": 16,
+	"tasker_counts": 32,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "mdds",
+	"log_level": 5,
+	
+	"api_apply": "/publicentry",
+	"api_fetch": "/mddsFetch.json",
+	"api_merge": "/mddsMerge.json",
+
+	"node_data": {
+	    "host": "192.168.1.10",
+	    "port": 3306,
+	    "username": "observer",
+	    "password":
+		"abc123",
+	    "database":
+		"roadMap"
+	},
+	
+	"line_data":
+	{
+	    "host":
+		"192.168.1.10",
+	    "port":
+		3306,
+	    "username":
+		"observer",
+	    "password":
+		"abc123",
+	    "database":
+		"roadMap"
+	},
+	"poi_data": {
+	    "host": "192.168.1.21",
+	    "port": 3306,
+	    "username": "observer",
+	    "password":
+		"abc123",
+	    "database":
+		"mapdata"
+	}
+}

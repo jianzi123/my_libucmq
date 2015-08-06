@@ -1,0 +1,16 @@
+{
+	"service_port": 6666,
+	"hander_counts": 4,
+	"worker_counts": 16,
+	"tasker_counts": 32,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "robais",
+	"log_level": 5,
+	
+	"api_apply": "/robaisApply.json",
+	"api_fetch": "/robaisFetch.json",
+	"api_merge": "/robaisMerge.json"
+}

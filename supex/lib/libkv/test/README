@@ -1,0 +1,5 @@
+				Readme for unit test of libkv			
+
+
+CUnit-2.1-3 is for the project's C Unit Test Framework, so you need to compile and install CUnit in your host,
+and then add your UT test codes in this directory.

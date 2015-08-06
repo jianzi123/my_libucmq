@@ -1,0 +1,55 @@
+REMIND:
+	1)can't reinitialization lua VM in coroutine system.-->TODO:coroutine_switch when (not batch) task is not zero in init lua VM function.
+	2)split worker's task for more part.
+	3)add no http or no redis protocol.
+	4)fix safe_start_pthread					[done]
+	5)supex rename to smart 					[done]
+	6)crzpt main http server make to use swift by smart		[done]
+	7)crzpt use libleveldb						[done]
+	8)fix weibo server						[done]
+	9)fix roadrank server
+	10)weibo连接池功能中,协议和异步模式通过参数选择传入             [done]
+	11)smart和swift启动同步问题
+	12)去除g_parter_pthread等全局变量，把接口可以重复调用的子模块,通过结构体或者参数传递变量索引
+	13)move leveldb.a link in craport				[done]
+	14)extract api function from sniff into supex.c for smart or swift to fix
+	15)codes optimization at last
+	16)ev and coro combine.
+	17)tcp time_wait						[done]
+	18)log Monthly							[done]
+	19)damS pthread config counts name need fix
+	20)msmq support more in one process by defferent name
+	21)merge recive and sender pthread
+	22)batch or only task not only for lua,add for c
+	23)task->index   to task->order
+	24)分段传输,TCP_CORK
+	25)fix http function codes.					[done]
+	26)add more thread to accept.
+	27)sync TIMEOUT问题
+	28)add msmq block up for 24:00 come.
+	29)use ldb exchange SQLite?
+	30)pcall to xpcall
+	31)函数缓存计算结果						[done]
+	32)c config.json exchange to lua load
+	33)roadrelation main http server make to use swift by smart
+	34)add a c file support lua functions.
+	35)a libev loop for http async.					[done]
+	36)damS for async
+	37)gopath add task forword scheduling policy
+	38)open/apply/fun_point_match_road.lua add lru
+	39)minor add [async loop worker] [one queue more worker]	[done]
+	40)kill protect
+	41)message queue project add reload code function
+	42)damS add config reload.
+	43)主框架http和redis协议去除宏编译方式选择
+	44)redis接口协程异步支持
+	45)malloc调用统计,内存泄漏排查支持
+	46)zpublic研究
+	47)damS自动更新配置
+	48)supex use libev file change event to update config
+	49)damS内存队列换成共享内存
+	50)cpcall
+	51)supex 支持shell支持lua处理 ,在线调试
+	52)队列支持监控 -->51)配合
+	53)supex.lua one file
+

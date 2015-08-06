@@ -1,0 +1,17 @@
+{
+	"swift_port": 9009,
+	"porter_counts": 8,
+
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "spray",
+	"log_level": 5,
+
+	"api_apply": "/sprayApply.json",
+	"api_fetch": "/sprayFetch.json",
+	"api_merge": "/sprayMerge.json",
+
+	"api_custom": ["/w_xxx"]
+}

@@ -1,0 +1,27 @@
+{
+	"service_port": 5555,
+	"hander_counts": 4,
+	"worker_counts": 16,
+	"tasker_counts": 32,
+	"max_req_size": 32768,
+
+
+	"log_path": "./logs/",
+	"log_file": "topology",
+	"log_level": 5,
+
+	"node_data": {
+		"host": "192.168.1.10",
+		"port": 3306,
+		"username": "observer",
+		"password": "abc123",
+		"database": "roadMap"
+	},
+	"line_data": {
+		"host": "192.168.1.10",
+		"port": 3306,
+		"username": "observer",
+		"password": "abc123",
+		"database": "roadMap"
+	}
+}

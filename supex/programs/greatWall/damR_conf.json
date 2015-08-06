@@ -1,0 +1,22 @@
+{
+	"swift_port": 2200,
+	"porter_counts": 8,
+
+	"supex_port": 3300,
+	"hander_counts": 4,
+	"worker_counts": 16,
+	"tasker_counts": 32,
+
+	"max_req_size": 32768,	//最大请求包的大小
+
+
+	"log_path": "./logs/",
+	"log_file": "damR",
+	"log_level": 5,
+
+	"api_apply": "/damRApply.json",
+	"api_fetch": "/damRFetch.json",
+	"api_merge": "/damRMerge.json",
+
+	"api_custom": ["/w_xxx"]
+}
